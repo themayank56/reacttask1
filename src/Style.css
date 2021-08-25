@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+.navbar-brand{
+  font-size: 2.3rem !important;
+  color:black !important;
+}
+.navbar a {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 3px solid yellowgreen;
+}
+.navbar a:hover{
+  color: #3498db;
+}
+.contect{
+  background: yellowgreen;
+  color: black;
+  border-radius: 50px;
+}
+.contect1{
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  padding: 5px;
+}
+.contect3{
+  background: yellowgreen;
+  color: black;
+  border-radius: 25px;
+  padding: 13px;
+}
+.Featured {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 22px;
+  overflow: visible;
+  font-size: 30px;
+  font-weight: 500;
+  color: yellowgreen;
+}
+.welcome{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 22px;
+  font-size: 50px;
+  text-align: center;
+}
+.head1{
+  color: yellowgreen;
+  font-size: 70px;
+  text-align: center;
+}
+.head2{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.home_header_img img{
+  display: block;
+  width: 100%;
+  border-radius: 50px;
+}
+
+#nav_bg {
+  margin-top: 100px; 
+}
+#home_swiper{
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.max0 h1{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  color: rgb(54, 54, 54);
+}
+.max2{
+  margin: 0;
+  text-align: center;
+}
+.max_margin{
+  margin-left: 730px;
+}
+.contect {
+  text-align: center;
+  margin-top: 0;
+  overflow: visible;
+  font-size: 25px;
+  font-weight: 200;
+  color: yellowgreen;
+}
+.select_project{
+  text-align: center;
+  margin-top:100px ;
+}
+.card{
+  box-sizing: border-box;
+}
+.card-body{
+text-align: center;
+font-size: 25px;
+}
+.nav-link{
+  color: black;
+}
+.card-body a:hover{
+   color: yellowgreen
+}
+.card-margin{
+  margin: 50px;
+}
+
+.section{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section-head h1{
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+.section-head h1:after{
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+.section-head1 h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-head1 h1:after{
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+
+#testimonial{
+  color: rgb(255, 255, 255);
+  background: url("../src/images/phone.jpg") no-repeat 0 ;
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+}
+#testimonial:before{
+  background: rgba(8, 8, 8, 0.4);
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.testimonial img{
+  height: 120px;
+  width: 130px;
+  border-radius: 50%; 
+}
+.sec{
+  color: whitesmoke;
+  font-size: 50px;
+  text-align: center;
+}
+.text{
+  color: rgb(255, 0, 0);
+  font-size: 27px;
+}
+.text1{
+  color: yellowgreen;
+  font-size: 30px;
+}
+#footer-sidebar{
+  color: rgb(7, 6, 6);
+  background: #f3f4f5;
+  padding: 20px 0;
+}
+.hr{
+  border: 2px solid rgb(247, 39, 2);
+}
+.card-text a{
+  color: black;
+}
+.card-text a:hover{
+  color:yellowgreen;
+}
+.latest-news{
+  padding: 13px;
+  margin: 7px;
+  font-size: px; 
+}
+#footer{
+  color: white;
+  background: #2c3e50;
+  padding: 10px 0;
+}
+#social-icon{
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#social-icon svg{
+  display: inline-block;
+  padding-left: 10px; 
+}
+
+#banner{
+  background: url('../src/images/img1.jpg') no-repeat  0;
+  background-size: cover;
+}
+.banner-title{
+  padding-top: 5rem;
+}
+.banner-title h1{
+  background:rgba(252, 251, 251, 0.8);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+.banner-title p{
+  color: white;
+  background: rgba(231, 76, 60, 0.7);
+  padding: 10px;
+}
+.service-box{
+  text-align: center;
+}
+.service-box svg{
+  color: #e74c3c;
+  font-size: 60px;
+  margin-top: 14px;
+}
+.mon{
+  margin: 15px;
+}
+.col-md-4 .card{
+  border: 2px solid yellowgreen;
+  border-radius: 15px;
+}
+.section .card{
+  box-shadow: 10px 10px 10px 5px rgb(85, 82, 82); 
+}
+
+

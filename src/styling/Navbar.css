@@ -1,0 +1,50 @@
+body{
+  background:white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.max{
+  background: rgb(238, 236, 236);
+  box-shadow: 0px  0px 20px 12px rgb(85, 84, 84);
+  border-radius: 30px; 
+}
+.nav-item{
+  overflow: hidden; 
+}
+#logo img{
+  height: 140px;
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 110px;
+  box-shadow: 0px  0px 20px 12px yellowgreen; 
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 5px solid yellowgreen;
+  border-radius: 40px;
+}
+.max li{
+  font-size: 40px;
+  margin-right: 8px;
+  margin-left: 20px;
+  color: tomato;
+}
+#navbarSupportedContent ul{
+  margin-right: 110px;
+}
+.navbar-mainbg{
+  padding: 0px;
+}
+.navbar-mainbg button{
+  height: 80px;
+  width: 80px;
+  border: 5px solid yellowgreen;
+  box-shadow: 0px  0px 20px 12px yellowgreen;
+  margin-right: 50px;
+}
+#menu_item{
+  color: tomato;
+  
+}
